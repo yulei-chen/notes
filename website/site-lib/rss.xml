@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lecture Notes]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>Lecture Notes</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 26 Nov 2025 01:22:41 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 26 Nov 2025 01:22:41 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[01. Introduction]]></title><description><![CDATA[NLP: Algorithms to process, analyze and understand texts in natural language
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lecture Notes]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>Lecture Notes</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 26 Nov 2025 01:30:51 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 26 Nov 2025 01:30:50 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[02. Words]]></title><description><![CDATA[Example (Chinese): 我看书 — “I read/look at a book.”. Morphemes:
+我 = I
+看 = read/look
+书 = book
+Key idea: Minimal or no inflection; morphemes usually stand alone.Example (Turkish): ev-ler-in-de — “in your houses”. Morphemes:
+ev = house
+-ler = plural
+-in = your
+-de = in
+Key idea: Morphemes have clear boundaries and single meanings, attached in sequence.Example (Spanish): habl-o — “I speak”. Morphemes:
+habl- = speak
+-o = 1st person + singular + present
+Key idea: A single morpheme typically encodes multiple grammatical features.Example (Inuktitut): tusaatsiarunnanngittualuujunga — “I really can’t hear well”. Simplified morphemes:
+tusaa- = hear
+-tsiaq- = well
+-junnaq- = be able
+-nngit- = not
+-tualuu- = very
+-junga = I
+Key idea: Many morphemes combine to express what would be a whole sentence.Example (Arabic): kitaab — “book”. Morphemes:
+k-t-b = root “write”
+i__a__ = vocalic pattern forming a noun
+Key idea: Words are formed by inserting vocalic patterns into consonantal roots.
+Lexeme, e.g., SEE
+Word-form, e.g., saw, seeing, saws
+Paradigm, e.g., I, my, mine, me
+Word family, e.g., act, action, actor, activate, active, activist Lexical/Content
+Functional
+Root Suffix
+Prefix
+Infix
+Circumfix Changes the grammatical form of a word without creating a new lexeme.
+Does not change core meaning or word class.
+Typical categories: tense, number, case, agreement.
+Examples:
+walk → walks (3sg)
+cat → cats (plural)
+see → saw (past) Forms a new word (new lexeme) by adding derivational affixes.
+Often changes meaning and sometimes word class.
+Examples:
+happy → unhappy
+nation → national
+modern → modernize
+read → reader Combines two or more roots/words to form a new lexeme.
+The components remain recognizable.
+Examples:
+black + board → blackboard
+sun + light → sunlight
+ice + cream → ice-cream
+Here’s a concise English note summarizing the morphological processes you listed, with clear examples:
+Maps a word form to its lemma (dictionary/base form).
+Ignores context.
+Example:
+saw → see Lemma and Lexeme are different. Lexeme is an abstract concept, while lemma is a concrete concept. Breaks a word into (lemma + grammatical tag).
+Does not consider context, so may produce multiple analyses.
+Example:
+saw → {(see, verb.past), (saw, noun.sg)} Uses context to select the correct analysis.
+Example:
+Sentence: Peter saw her
+saw → {(see, verb.past)} Splits a word into its smallest meaningful units (morphemes).
+Example:
+de-nation-al-iz-ation → de + nation + al + iz + ation Produces a word form from a lemma + features.
+Essentially the reverse of lemmatization.
+Example:
+(see, verb.past) → saw
+Both Feature Engineering (FE) and Representation Learning (RL) are methodologies designed to solve the critical challenge in machine learning models: how to map text into a fixed vector representation, or .However, they differ fundamentally in their approach, timeframe, and resulting data structure.Feature Engineering (FE) represents the dominant methods used over the last 25 years. This approach relies on manually defined templates to describe the important information of the text. FE is often decried as “costly, hand-crafted, expensive, domain-specific,” among other criticisms. While simple features typically give the bulk of the performance and can yield high accuracies, the feature set is still difficult to maintain.Representation Learning (RL) describes the methods developed over the last 10 years. The defining characteristic of RL is that the features are automatically learned. The result of this process is an approximation, meaning some information are lost, and the representation is typically task dependent.The methodologies lead to stark differences in the resulting vector format:
+FE commonly uses representations like the Bag of Words (BoW). This approach results in a Sparse matrix, where most entries are zero. BoW uses one feature per word, which can be a Binary feature (0 or 1) or a Count feature. Feature Importance and TF-IDF can help solve problems respectively about word importance and high-frequently used no-meaning words.
+RL generates a Neural representation, which is characterized as Dense. Negation: It's not a great monster movie.
+Different sense: There's a great deal of corny dialogue and preposterous moments.
+Multiple sentiments: A great ensemble cast can't lift this heartfelt enterprise out of the familiar.
+Number of features: Too few. Hard to distinguish different inputs
+Too many. Overfitting Representation Learning evolved to better handle critical challenges inherent in text data that constrained Feature Engineering:
+Word Order and Length: FE methods like BoW ignore word position when dealing with variable length input. Although FE can use Higher-Order Binary Feature Templates (like bigrams or trigrams) to consider word order and maintain a fixed size vector representation, this introduces the challenge of an extremely large number of features. Conversely, RL must address the fact that word order is important and must handle variable length input.
+Open Vocabulary: For FE, open vocabulary is a challenge that requires the use of a fixed vocab. RL also faces the open vocabulary challenge, but aims to solve it by being able to understand unknown words, such as the complex term Hippopotomonstrosesquipedaliophobia.
+Granularity: RL’s approach to solving vocabulary challenges involves identifying the best granularity—choosing among words, subwords, or characters. RL acknowledges that while using characters provides much training data and allows understanding of unknown words, it leads to long sequences for text, which is not efficient. Therefore, RL uses machine learning based subword segmentation to learn efficient representation. Techniques like Byte-Pair Encoding (BPE), which starts with an Initial vocabulary of characters to ensure every words can be represented, are employed to strike this balance.
+]]></description><link>natural-language-processing/02.-words.html</link><guid isPermaLink="false">Natural Language Processing/02. Words.md</guid><pubDate>Wed, 26 Nov 2025 01:29:45 GMT</pubDate></item><item><title><![CDATA[01. Introduction]]></title><description><![CDATA[NLP: Algorithms to process, analyze and understand texts in natural language
 Understanding structure
 Understanding meaning Ambiguity, e.g., bank
 Compositionality, e.g., green thumb
@@ -21,4 +96,4 @@ Sequence Classification, e.g., sentiment analysis
 Sequence labeling, e.g., named entity recognition
 Sequence to Sequence model, e.g., summerization
 Structure prediction, e.g., parsing Evaluation: Human evaluation
-Automatic evaluation ]]></description><link>natural-language-processing/01.-introduction.html</link><guid isPermaLink="false">Natural Language Processing/01. Introduction.md</guid><pubDate>Wed, 26 Nov 2025 01:20:46 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Home]]></title><description><![CDATA[This is where I take notes.]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Wed, 26 Nov 2025 01:18:56 GMT</pubDate></item></channel></rss>
+Automatic evaluation ]]></description><link>natural-language-processing/01.-introduction.html</link><guid isPermaLink="false">Natural Language Processing/01. Introduction.md</guid><pubDate>Wed, 26 Nov 2025 01:20:46 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Home]]></title><description><![CDATA[This is where I take notes.]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Wed, 26 Nov 2025 01:18:56 GMT</pubDate></item></channel></rss>
