@@ -1,4 +1,39 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lecture Notes]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>Lecture Notes</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 26 Nov 2025 02:10:27 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 26 Nov 2025 02:10:26 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[06. Topic Models]]></title><description><![CDATA[
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lecture Notes]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>Lecture Notes</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 26 Nov 2025 02:14:20 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 26 Nov 2025 02:14:19 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[07. Sentiment Analysis]]></title><description><![CDATA[<img alt="Pasted image 20251126031330.png" src="attachments/pasted-image-20251126031330.png" target="_self">Sentiment Analysis takes a text sequence with variable length as input and outputs a sentiment label. Tasks range from narrow to broad:
+Polarity classification.
+User rating (e.g., 1 to 5 stars).
+Feature/aspect-based sentiment analysis.
+Agreement detection.
+Subjectivity/viewpoint detection.
+The basic Deep Learning Model uses End-to-end optimization because the Whole network is differentiable.The model generally consists of three main stages:
+Encoder: Function to represent a sequence of words as a vector.
+Feed Forward Network (FFN): Provides a better representation of the sentence content.
+Classification Layer: Outputs the final sentiment label.
+The Encoder is composed of three components: Word Embedding, Sequential Layers, and the Aggregation Layer.
+Word Embeddings map a word to a dense vector.
+This layer often holds the largest number of features in the whole network.
+Contrast with One-hot encoding: One-hot encoding results in a large number of features and makes all words equally similar.
+Training/Initialization: A common strategy is to use a pre-trained model with fine-tuning. A "no layer" approach, or Bag-of-word representation, fails because Word order does not matter (e.g., "Mary loves John" vs. "John loves Mary").
+Since context is important, a model is needed to Process word separately AND Keep the context.
+Architectures used for sequential context include Recurrent neural networks (RNNs), Convolution neural networks (CNNs), and Attention networks.
+This layer addresses the challenge of converting Variable input size to Fixed output size. Common methods include:
+Average word embeddings (meanpool).
+Sum word embeddings.
+Max pooling ( for the -th dimension).
+Last element. Unit: The Vanilla RNN unit takes the Current input and the Previous hidden state .
+Properties: RNNs Store history in a vector and capture Global context.
+Training: Involves Unfolding the network over time (weights are shared across time steps) and using Backpropagation through time (BPTT).
+Issues: RNNs suffer from Vanishing gradients and Exploding gradients (often controlled with clipping).
+An Advanced RNN Architecture motivated by the need for a Memory cell.
+Mechanism: Uses 1D convolution along the time dimension, also known as Time-delayed neural networks (TDNN).
+Filters (Kernels): Act as feature extractors. A filter is a vector in the word vector space that matches a particular region of the space. Filters can be used to capture Uni-gram, Bi-gram, or Tri-gram features (depending on kernel size).
+Properties: CNNs exhibit Shift Invariance and capture Local context.
+Output: An Aggregation layer (e.g., max-pooling) is used to Reduce to fixed length.
+CNNs vs. RNNs: CNNs view context local to the filter width, while RNNs generally look globally. Feed Forward Network (FFN): Input is a Fixed-size representation of the sentence; Output is a Fixed-size representation. The parameters are the Weights of edges between nodes. Classification Layer: Binary Classification: Uses a Single Neuron with the Sigmoid activation function.
+Multiclass Classification: Uses One neuron per class with the Softmax activation function (to produce a probability distribution) and Cross-entropy as the loss function. Since the whole network is differentiable, training uses End-to-end optimization. Strategies depend on data and model:
+Random initialization.
+Frozen pre-trained model.
+Pre-trained model with fine-tuning.
+]]></description><link>natural-language-processing/07.-sentiment-analysis.html</link><guid isPermaLink="false">Natural Language Processing/07. Sentiment Analysis.md</guid><pubDate>Wed, 26 Nov 2025 02:13:32 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="."&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[06. Topic Models]]></title><description><![CDATA[
 Topic models address information overload by helping to Automatically process data. Traditional NLP solutions include Summarization, Information extraction, and Question answering.
 Goals: Topic models aim to Cluster/Organize data, Discover hidden themes, and Annotate documents with themes.
 Topic Definition: A topic is characterized conceptually by frequent words, and formally as a Distribution over words.
