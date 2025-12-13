@@ -5,26 +5,26 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "",
+      "query": "tag:#theorem  ",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 5562450
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 3.10128987630208,
+  "nodeSizeMultiplier": 2.34882405598958,
   "lineSizeMultiplier": 2.00389404296875,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7673511902114326,
+  "scale": 0.9662676917944816,
   "close": true
 }

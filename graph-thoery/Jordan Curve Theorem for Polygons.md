@@ -1,6 +1,6 @@
 #theorem 
 
-Let $P ⊆ \mathbb{R} ^2$ be a [[polygon]]. Then $\mathbb{R} ^2 \backslash P$ has exactly two [[region]]s. One of the regions is unbounded, the other is [[bound]]ed. Each of the two regions has P as [[frontier]].
+Let $P ⊆ \mathbb{R} ^2$ be a [[polygon]]. Then $\mathbb{R} ^2 \backslash P$ has exactly two [[face|region]]s. One of the regions is unbounded, the other is [[bound]]ed. Each of the two regions has P as [[frontier]].
 
 多边形的约旦曲线定理（Jordan Curve Theorem for Polygons，引理 4.3）阐述了多边形在平面上的分割特性：
 
