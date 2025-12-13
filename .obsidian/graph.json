@@ -4,18 +4,18 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#theorem  ",
       "color": {
         "a": 1,
-        "rgb": 5562450
+        "rgb": 16768568
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 2.34882405598958,
@@ -25,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.9662676917944816,
+  "scale": 0.5112158138408316,
   "close": true
 }
