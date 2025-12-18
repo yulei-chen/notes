@@ -1,31 +1,33 @@
-2025-12-week51
-```
-todo:
-- study: week 7 
-- life: pack stuff and plan train to black forest
-- wrok: none
-  
-daily check-in:
-- English one sentence: x x x o o
+2025-12-week52
 
+Todo (with priority):
+- study: week 8
+- work: docker challenges (https://labs.iximiuz.com/challenges)
+- tech video: docker challenges, css battle, weekly English reading
+- life: podcast
+  
+Check-in:
+- daily English(learn one sentence): o o o o o
+- weekly English reading
+  
 ---
 
-12-15 Mon
-x learn nlp exam 2025 - language modeling - 1h
-o sqm ex-exams - 1h (回忆版德语无太多参考价值，但是知道了期末会有复习题目)
+12-22 Mon
+o study:
+o video: docker challenges
 
-12-16 Tue
-> SQM all notes and exercise (3h)
-> trip plan
-x 屁大点事的音频动画
-= 发现自己写代码的时候就会停不下来，进入心流。
+12-23 Tue
+o study: 
+o video: docker challenges
 
-12-17 Wed
-x trip plan
-o SQM all notes and exercise (2h)
-- 昨晚开始手麻，今天持续，1月13日看医生
-  
-12-18 Thu
-o pack stuff
-```
+12-24 Wed
+o study:
+o [[podcast ep4 40 questions i ask myself for summarizing this year]]
 
+12-25 Thu
+o study:
+o video: weekly reading
+
+12-26 Fri
+o study:
+o video: css battle

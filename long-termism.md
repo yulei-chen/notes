@@ -3,6 +3,7 @@ Hi Yulei, 👋
 What would you like to do now?
 
 - code?
+	- https://cssbattle.dev/
 	- codepen - audio player animation
 	- [current project?](https://github.com/yulei-chen?tab=repositories)
 	- [interview preparation](https://bigfrontend.dev/)
@@ -12,6 +13,8 @@ What would you like to do now?
 		- clone [musicForProgramming();](https://musicforprogramming.net/latest/) - podcast
 		- clone [Jimmy Lai](https://jimmyl.ai/) - Lucie's page
 - read?
+	- https://pudding.cool/2018/02/waveforms/
+	- https://chrome.dev/css-wrapped-2025/
 	- https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
 	- [feed](https://www.inoreader.com/all_articles)
 - learn English?
@@ -30,9 +33,12 @@ What would you like to do now?
 	- 网球🎾
 	- 羽毛球🪶
 - make videos?
-	- proof of hall's marriage theorem
+	- [[tech video ideas]]
 	- Europe travel vlog
 - podcast?
+	- [[podcast topics]]
+- writing?
+	- [[things i'm using]]
 
 or just take a good rest :)
 
