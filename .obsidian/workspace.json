@@ -4,81 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "07b66b9915ab8c0e",
+        "id": "bdfa12ba91bfb2b6",
         "type": "tabs",
         "children": [
           {
-            "id": "1ed6b820f5beb6d6",
+            "id": "b828393cc696dcc6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "long-termism.md",
+                "file": "condition-based testing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "long-termism"
+              "title": "condition-based testing"
             }
           },
           {
-            "id": "9cac024ceda02b10",
+            "id": "56ae649472680364",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bujo/current week.md",
+                "file": "MCDC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "current week"
-            }
-          },
-          {
-            "id": "26fa295e2c6fd696",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bujo/current week.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "current week"
-            }
-          },
-          {
-            "id": "d9393bff5ddf47c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bujo/current week.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "current week"
-            }
-          },
-          {
-            "id": "cc9a055f213c0eb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "podcast ep3 One-month travel in Europe with Lucie.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "podcast ep3 One-month travel in Europe with Lucie"
+              "title": "MCDC"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "tag:#graph-theory",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MCDC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for MCDC"
             }
           },
           {
@@ -237,7 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 727.5
+    "width": 744.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,34 +210,43 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "4569928cb905bf6e",
+  "active": "56ae649472680364",
   "lastOpenFiles": [
-    "bujo/current week.md",
-    "disengage.md",
-    "podcast ep3 One-month travel in Europe with Lucie.md",
-    "podcast topics.md",
-    "podcast ep4 40 questions i ask myself for summarizing this year.md",
-    "bujo/2025-12-week51.md",
-    "things i'm using.md",
-    "learning container from the bottom up.md",
-    "whip up.md",
-    "self-inflicted.md",
-    "fumble.md",
-    "go out of one's way to do.md",
-    "Dan Abramov.md",
-    "stick.md",
-    "doctor seeing record.md",
-    "long-termism.md",
-    "tech video ideas.md",
-    "black-box testing.md",
-    "verification.md",
-    "learn everything with obsidian.md",
-    "v-model.md",
-    "Menger's Theorem for edge-connectivity.md",
-    "bipartite.md",
-    "neighborhood.md",
-    "regular.md",
-    "block-cut-vertex graph.md",
+    "attachments/Pasted image 20251224031542.png",
+    "attachments/Screenshot 2025-12-24 at 03.14.37.png",
+    "MCDC.md",
+    "condition-based testing.md",
+    "modified condition/decision coverage.md",
+    "modified condition/decision coverage (MC/DC).md",
+    "modified condition/decision coverage (MC",
+    "modified condition",
+    "data flow-based testing.md",
+    "podcast ep4 One-month travel in Europe with Lucie.md",
+    "bujo/this week.md",
+    "white-box testing.md",
+    "Bootstrapped Cloud Hosting Startup 40% Monthly Growth Without VC Money I Jonas Scholz, Sliplane.md",
+    "(simple) condition coverage.md",
+    "fine-tuning.md",
+    "comparison.md",
+    "RLHF.md",
+    "condition determination coverage.md",
+    "attachments/Pasted image 20251224023442.png",
+    "CD-combination.md",
+    "attachments/Pasted image 20251224023142.png",
+    "Coverage comparison of white-box test methods.md",
+    "multiple condition coverage.md",
+    "Test Implementation.md",
+    "attachments/Pasted image 20251224022125.png",
+    "atomic condition.md",
+    "attachments/Pasted image 20251224021705.png",
+    "stat.md",
+    "control flow-based testing.md",
+    "control flow graph.md",
+    "decision.md",
+    "composition condition.md",
+    "attachments/Pasted image 20251224015849.png",
+    "podcast ep3 40 questions i ask myself for summarizing this year.md",
+    "attachments/Pasted image 20251222223219.png",
     "**Min",
     "Untitled.base",
     "learn obsidian dev.canvas",
@@ -288,18 +256,9 @@
     "attachments/Pasted image 20251215031859.png",
     "attachments/Pasted image 20251215031805.png",
     "attachments/Pasted image 20251215030446.png",
-    "attachments/Pasted image 20251215030322.png",
-    "attachments/Pasted image 20251215013030.png",
-    "attachments/Pasted image 20251214231407.png",
-    "attachments/Pasted image 20251214003525.png",
     "dev",
     "language",
     "untitled folder",
-    "attachments/Pasted image 20251213015636.png",
-    "attachments/Pasted image 20251213015358.png",
-    "attachments/Pasted image 20251213015345.png",
-    "Untitled.canvas",
-    "graph-thoery/attachments",
-    "graph-thoery"
+    "Untitled.canvas"
   ]
 }

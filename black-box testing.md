@@ -13,3 +13,12 @@ Specification-Based Black-Box Testing Techniques:
 - cause effect graphs
 - classification tree
 - syntax testing
+
+
+Assessment of Black-Box Testing:
+
+Black-box testing methods are founded on the system's requirements and specifications. Consequently:
+
+- They ==cannot== detect missing or incorrect requirements or specifications.
+- Detection of non-specified functionality (additional, non-required functions) is likely only found by coincidence.
+- Black-box techniques are prioritized because they focus on the functionality of the test object, which is paramount for the final product.

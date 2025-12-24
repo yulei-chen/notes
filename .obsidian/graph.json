@@ -8,7 +8,7 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "tag:#testing  ",
+      "query": "tag:#readlater  ",
       "color": {
         "a": 1,
         "rgb": 16752286
@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 16777215
       }
+    },
+    {
+      "query": "tag:#testing  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
     }
   ],
   "collapse-display": false,
@@ -46,6 +53,6 @@
   "repelStrength": 9.36848958333333,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.49127585391356604,
+  "scale": 0.532774795440316,
   "close": true
 }

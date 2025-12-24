@@ -1,6 +1,5 @@
 #testing 
 
-
 | **Input Derivation**    | Derived _with_ knowledge about internal logic.                                |
 | :---------------------- | :---------------------------------------------------------------------------- |
 | **Design Approach**     | Structure-based.                                                              |
