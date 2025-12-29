@@ -51,6 +51,7 @@ inspired by [[Steph Ango]]: https://github.com/kepano/40-questions
 	- Remarkable 2
 13. 谁的行为值得去表扬？
 	- lucie：耐心、创造力、幽默、乐观、鼓励型伴侣
+	- pipi
 	- lulu 和月月：帮助我们照顾屁屁-。-
 14. 谁的行为令你感到震惊？
 	 黑森林的房东：54岁的时候骑行一周，骑到法国西部

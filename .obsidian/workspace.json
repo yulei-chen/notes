@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "bdfa12ba91bfb2b6",
+        "id": "1360c8de6e9b119b",
         "type": "tabs",
         "children": [
           {
-            "id": "b828393cc696dcc6",
+            "id": "f175694a87d97958",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "condition-based testing.md",
+                "file": "clean code.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "condition-based testing"
-            }
-          },
-          {
-            "id": "56ae649472680364",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MCDC.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MCDC"
+              "title": "clean code"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#graph-theory",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "34539a230af38095",
@@ -121,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MCDC.md",
+                "file": "cost estimation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MCDC"
+              "title": "Backlinks for cost estimation"
             }
           },
           {
@@ -196,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 744.5
+    "width": 808.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,52 +197,52 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "56ae649472680364",
+  "active": "f175694a87d97958",
   "lastOpenFiles": [
-    "attachments/Pasted image 20251224031542.png",
-    "attachments/Screenshot 2025-12-24 at 03.14.37.png",
-    "MCDC.md",
-    "condition-based testing.md",
-    "modified condition/decision coverage.md",
-    "modified condition/decision coverage (MC/DC).md",
+    "clean code.md",
+    "clean code.md",
+    "clean architecture.md",
+    "influencing factors of software architecture.md",
+    "another clean architecture.md",
+    "attachments/Pasted image 20251229215007.png",
+    "Conway’s Law.md",
+    "attachments/Pasted image 20251229214830.png",
+    "reference architecture.md",
+    "software architecture style.md",
+    "software architecture pattern.md",
+    "software architecture.md",
+    "component infrastructure.md",
+    "repository.md",
+    "agile.md",
+    "factory.md",
+    "single table inheritance.md",
+    "architectural patterns.md",
+    "attachments/Pasted image 20251229213604.png",
+    "object-relational structural patterns.md",
+    "domain logic design patterns.md",
+    "attachments/Pasted image 20251229213240.png",
+    "attachments/Pasted image 20251229213055.png",
+    "domain-driven design.md",
+    "entity.md",
+    "service.md",
+    "domain model.md",
+    "unified process (UP).md",
+    "extreme programming (XP).md",
+    "layers of enterprise software.md",
+    "module.md",
+    "attachments/Pasted image 20251229210253.png",
+    "attachments/Pasted image 20251229210002.png",
+    "attachments/Pasted image 20251229205050.png",
+    "attachments/Pasted image 20251229204623.png",
+    "attachments/Pasted image 20251227225701.png",
     "modified condition/decision coverage (MC",
     "modified condition",
-    "data flow-based testing.md",
-    "podcast ep4 One-month travel in Europe with Lucie.md",
-    "bujo/this week.md",
-    "white-box testing.md",
-    "Bootstrapped Cloud Hosting Startup 40% Monthly Growth Without VC Money I Jonas Scholz, Sliplane.md",
-    "(simple) condition coverage.md",
-    "fine-tuning.md",
-    "comparison.md",
-    "RLHF.md",
-    "condition determination coverage.md",
-    "attachments/Pasted image 20251224023442.png",
-    "CD-combination.md",
-    "attachments/Pasted image 20251224023142.png",
-    "Coverage comparison of white-box test methods.md",
-    "multiple condition coverage.md",
-    "Test Implementation.md",
-    "attachments/Pasted image 20251224022125.png",
-    "atomic condition.md",
-    "attachments/Pasted image 20251224021705.png",
-    "stat.md",
-    "control flow-based testing.md",
-    "control flow graph.md",
-    "decision.md",
-    "composition condition.md",
-    "attachments/Pasted image 20251224015849.png",
-    "podcast ep3 40 questions i ask myself for summarizing this year.md",
-    "attachments/Pasted image 20251222223219.png",
     "**Min",
     "Untitled.base",
     "learn obsidian dev.canvas",
     "Untitled 1",
     "bujo/Untitled",
     "bujo",
-    "attachments/Pasted image 20251215031859.png",
-    "attachments/Pasted image 20251215031805.png",
-    "attachments/Pasted image 20251215030446.png",
     "dev",
     "language",
     "untitled folder",
