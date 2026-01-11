@@ -8,10 +8,10 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#AI  ",
+      "query": "tag:#theorems  ",
       "color": {
         "a": 1,
-        "rgb": 16748431
+        "rgb": 16752286
       }
     },
     {
@@ -46,6 +46,6 @@
   "repelStrength": 9.36848958333333,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 1.2720040629223224,
+  "scale": 0.3519123666081084,
   "close": true
 }

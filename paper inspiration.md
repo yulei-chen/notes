@@ -7,5 +7,3 @@
 - [Formalising Szemerédi's Regularity Lemma in Lean](https://drops.dagstuhl.de/storage/00lipics/lipics-vol237-itp2022/LIPIcs.ITP.2022.9/LIPIcs.ITP.2022.9.pdf)
 - [[2101.00127] Formalizing Hall's Marriage Theorem in Lean](https://arxiv.org/abs/2101.00127)
 - cloud computing, Peter Krauß / krauss at kit.edu / SCC at kit
-
-

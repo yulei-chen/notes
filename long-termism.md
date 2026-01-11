@@ -9,9 +9,11 @@ What would you like to do now?
 	- [interview preparation](https://bigfrontend.dev/)
 	- [typescript challenge](https://github.com/type-challenges/type-challenges)
 	- [codepen weekly challenge](https://codepen.io/challenges)
-	- new ideas
-		 - [x] clone [musicForProgramming();](https://musicforprogramming.net/latest/) - podcast
-		- clone [Jimmy Lai](https://jimmyl.ai/) - Lucie's page
+	- [x] clone [musicForProgramming();](https://musicforprogramming.net/latest/) - podcast
+	- [ ] clone [Jimmy Lai](https://jimmyl.ai/) - Lucie's page
+	- [ ] CSS tool (example: https://cssgradient.io/, https://bennettfeely.com/clippy/)
+		- [ ] [repeat-liner-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-linear-gradient)
+		- [ ] 
 - read?
 	- bluesky bookmark
 	- https://pudding.cool/2018/02/waveforms/
