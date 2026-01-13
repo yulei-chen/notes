@@ -5,3 +5,4 @@ $$
 n−m+ f = 2
 $$
 
+([[Euler's characteristic]])

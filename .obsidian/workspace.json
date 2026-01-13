@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8d698eff29937594",
+        "id": "f78641b715bf5a57",
         "type": "tabs",
         "children": [
           {
-            "id": "6b1f944ee1c46bd0",
+            "id": "bfb23a8500922d32",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Klein bottle.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Klein bottle"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "34539a230af38095",
@@ -192,35 +197,37 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "6b1f944ee1c46bd0",
+  "active": "bfb23a8500922d32",
   "lastOpenFiles": [
+    "Heawood formula.md",
+    "Klein bottle.md",
+    "orientable surfaces.md",
+    "attachments/Pasted image 20260113011425.png",
+    "Euler's characteristic.md",
+    "Euler’s genus.md",
+    "Euler’s Formula.md",
+    "attachments/Screenshot 2026-01-13 at 00.44.36.png",
+    "list chromatic number.md",
+    "k-list-colorable (k-choosable).md",
+    "L-list-colorable.md",
+    "planar embedding.md",
+    "embedding.md",
+    "5-List-Color Theorem.md",
+    "maximally plane.md",
+    "Theorem 4.6.md",
+    "plane graph.md",
+    "Corollary 4.8.md",
+    "plane triangulation.md",
+    "k-list-colorable.md",
     "months/2026-01.md",
     "months/template.md",
+    "paper inspiration.md",
     "weeks/template.md",
     "weeks/2026-W02.md",
     "weeks/2026-W01.md",
     "months",
     "work log.md",
     "AI learning resources.md",
-    "compiler learning resources.md",
-    "paper inspiration.md",
-    "L-list-colorable.md",
-    "list chromatic number.md",
-    "5-List-Color Theorem.md",
-    "5-Color Theorem.md",
-    "k-colorable.md",
-    "chromatic number.md",
-    "proper k-vertex coloring.md",
-    "independent paths.md",
-    "degree of independence.md",
-    "Lemma 4.15.md",
-    "induced.md",
-    "Lemma 1.18.md",
-    "connectivity.md",
-    "Lemma 4.16.md",
-    "Kuratowski’s Theorem.md",
-    "Lemma 4.14.md",
-    "大豆.md",
     "months",
     "attachments/Pasted image 20260102185945.png",
     "attachments/Pasted image 20260102185912.png",
@@ -231,8 +238,6 @@
     "attachments/Pasted image 20260102185426.png",
     "attachments/Pasted image 20260102185407.png",
     "attachments/Pasted image 20260102185045.png",
-    "attachments/Pasted image 20260102185026.png",
-    "attachments/Pasted image 20260102184651.png",
     "long-termism",
     "Markwhen/Markwhen 1-1-2026 21.52.19.mw",
     "Markwhen/Markwhen 1-1-2026 21.53.07.mw",

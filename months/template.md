@@ -24,52 +24,88 @@ According to [[Style is consistent constraint]], arrange 2-day time slot for ea
 
 ### Week 1
 
-Mon (Dec 29)
+Mon
 
 ---
-Tue (Dec 30) 🎓 
-- #saq **Architectural Reuse** 10 tests 
-- #saq **Architectural Reuse** 25 tests
----
-Wed (Dec 31)
-- #被讨厌的勇气 
----
-Thu (Jan 1) 
-- #被讨厌的勇气 
----
-Fri (Jan 2) 
-- #saq **Architectural View Points** 25 tests
-- #saq graph view
- = finish graph view before page 94 in one hour (tired...)
----
-Sat (Jan 3)
+Tue 
 
 ---
-Sun (Jan 4)
-- #distributed-computing 2
-- #distributed-computing 3
-- #distributed-computing 3.3
- = 有了 [[paper inspiration]] 的新想法
+Wed 
+
+---
+Thu
+
+---
+Fri
+
+---
+Sat
+
+---
+Sun
 
 ### Week 2
 
-Mon (Jan 5)
-- #distributed-computing 3.6
----
-Tue (Jan 6)
-- #distributed-computing 3.9
----
-Wed (Jan 7)
-- #graph-theory 11
----
-Thu (Jan 8)
+Mon
 
 ---
-Fri (Jan 9)
-- work
----
-Sat (Jan 10)
+Tue
 
 ---
-Sun (Jan 11)
+Wed 
 
+---
+Thu
+
+---
+Fri
+
+---
+Sat 
+
+---
+Sun 
+
+### Week 3
+
+Mon
+
+---
+Tue 
+
+---
+Wed 
+
+---
+Thu
+
+---
+Fri
+
+---
+Sat
+
+---
+Sun
+
+### Week 4
+
+Mon
+
+---
+Tue 
+
+---
+Wed 
+
+---
+Thu
+
+---
+Fri
+
+---
+Sat
+
+---
+Sun
